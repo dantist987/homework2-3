@@ -11,6 +11,8 @@ public class Main {
         ArrayList<String> a = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Введите 5 имен для списка А");
+
         a.add(scanner.nextLine());
         a.add(scanner.nextLine());
         a.add(scanner.nextLine());
@@ -21,6 +23,8 @@ public class Main {
 
 
         ArrayList<String> b = new ArrayList<>();
+
+        System.out.println("Введите 5 имен для списка Б");
 
         System.out.println("------------------------");
 
